@@ -1,0 +1,11 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "extends": ["preact", "plugin:@typescript-eslint/recommended", "prettier"],
+    "ignorePatterns": ["build/"],
+    "rules": {
+        "quotes": ["error", "double"],
+        "semi": ["error", "always"],
+        "arrow-parens": ["error", "always"],
+        "prefer-arrow-callback": ["error"]
+    }
+}
